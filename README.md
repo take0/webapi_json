@@ -40,7 +40,7 @@ http://localhost:3000 // ログ出力。ハイパーリンクとできる環境�
 #### 確認
 ```
 $ curl http://localhost:3000
-Hello, Express.
+{"id":"12345678","score":100}
 ```
 
 #### 参考文献
