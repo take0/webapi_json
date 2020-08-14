@@ -6,5 +6,5 @@ app.get('/', (req, res) => {
   res.send('{"id":"12345678","score":100}');
 });
 
-const portNumber = 3000;
+const portNumber = 3001;
 app.listen(portNumber, () => console.log('http://localhost:' + portNumber));
