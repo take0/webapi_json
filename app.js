@@ -3,6 +3,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   res.header('Content-Type', 'application/json; charset=utf-8');
+  res.header('Access-Control-Allow-Origin', '*');
   res.send('{"id":"12345678","score":100}');
 });
 
