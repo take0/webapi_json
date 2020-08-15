@@ -34,12 +34,12 @@ $ vi app.js // app.js を作成して基本的で最低限必要なコードを�
 #### 実行
 ```
 $ node app
-http://localhost:3000 // ログ出力。ハイパーリンクとできる環境ならクリック出来て便利。
+http://localhost:3001 // ログ出力。ハイパーリンクとできる環境ならクリック出来て便利。
 ```
 
 #### 確認
 ```
-$ curl http://localhost:3000
+$ curl http://localhost:3001
 {"id":"12345678","score":100}
 ```
 
